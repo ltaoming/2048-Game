@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 750px;
+    color: rgb(237, 127, 2);
+}
+
+h1{
+    color: rgb(237, 127, 2);
+    font-size: 50px;
+  }
+
+h2{
+    color: rgb(237, 127, 2);
+    font-size: 25px;
+  }
+
+  .button {
+    width: 120px;
+    height: 40px;
+
+    background-color: #ed812a;
+    border: 8px solid #ed812a;
+    border-radius: 8px;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+#board{
+    width: 400px;
+    height: 400px;
+
+    background-color:rgb(194, 179, 162);
+    border: 8px solid rgb(174, 161, 146);
+    border-radius: 8px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile_cell{
+    width: 88px;
+    height: 88px;
+    border: 6px solid rgb(174, 161, 146);
+
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_2{
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.t_4{
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.t_8{
+    background-color: #f4b17a;
+    color: white;
+}
+
+.t_16{
+    background-color: #f59575;
+    color: white;
+}
+
+.t_32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.t_64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.t_128{
+    background-color: #edce71;
+    color: white;
+}
+
+.t_256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.t_512{
+    background-color: #edc651;
+    color: white;
+}
+
+.t_1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.t_2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.t_4096{
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.t_8192{
+    background-color: #ff2020;
+    color: white;
+}
+
+.t_16384{
+    background-color: #595757;
+    color: white;
+    font-size: 30px;
+}
+
+.t_32768{
+    background-color: #403e3e;
+    color: white;
+    font-size: 30px;
+}
+
+.t_65536{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
